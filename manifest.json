@@ -1,9 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Hacker new tab",
-  "description": "Put Hacker News and Techmeme on a new page.",
+  "name": "New hacker tab",
+  "description": "Put Hacker News, Techmeme and Twitter on a new tab page.",
   "version": "0.1.0",
   "chrome_url_overrides" : {
     "newtab": "index.html"
-  }
+  },
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+  ]
 }
