@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    overflow: hidden;
+}
+#container{
+    display: flex;
+    height: 100%;
+}
+.outer{
+    margin-right: 10px;
+}
+iframe {
+    border: none;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+#techmeme {
+    top: -204px;
+    flex: 1;
+}
+#hn {
+    top: -65px;
+    flex: 1;
+}
+#twitter {
+    top: -72px;
+    flex: 1;
+}

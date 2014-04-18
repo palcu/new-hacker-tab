@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Hacker new tab",
+  "description": "Put Hacker News and Techmeme on a new page.",
+  "version": "0.1.0",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
