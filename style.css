@@ -13,14 +13,4 @@ body {
 }
 iframe {
     border: none;
-    position: relative;
-}
-#techmeme {
-    top: -204px;
-}
-#hn {
-    top: -65px;
-}
-#twitter {
-    top: -72px;
 }
